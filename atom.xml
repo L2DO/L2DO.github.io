@@ -6,7 +6,7 @@
   <link href="https://www.wangdinghan.xyz/atom.xml" rel="self"/>
   
   <link href="https://www.wangdinghan.xyz/"/>
-  <updated>2022-07-08T08:23:31.669Z</updated>
+  <updated>2022-07-08T09:15:10.965Z</updated>
   <id>https://www.wangdinghan.xyz/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Reinforcement Learning</title>
+    <link href="https://www.wangdinghan.xyz/2022/07/08/reinforcement-learning/"/>
+    <id>https://www.wangdinghan.xyz/2022/07/08/reinforcement-learning/</id>
+    <published>2022-07-08T09:11:17.000Z</published>
+    <updated>2022-07-08T09:15:10.965Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;center&gt;&lt;h1&gt;分层强化学习在空对空作战领域的研究&lt;/h1&gt;&lt;/center&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;摘要——人工智能（AI）正在成为国防工业的一个重要组成部分，，DARPA最近的Alpha狗斗实验（ADT）证明了这一点。ADT寻求验证AI算法在模拟空战中驾驶</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
