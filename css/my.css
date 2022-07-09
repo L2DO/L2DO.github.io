@@ -89,3 +89,12 @@ nav ul a {
 }
 
 
+.bg-color {
+    background-image: linear-gradient(to right, #fc466b 0%, #3f5efb 100%);
+    opacity: 0.7;
+}
+
+.bg-color:hover {
+    background-image: linear-gradient(to right, #fc466b 0%, #3f5efb 100%);
+    opacity: 1;
+}
