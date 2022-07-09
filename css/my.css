@@ -26,11 +26,12 @@
 
 .bg-cover .description {
     font-weight: 300;
-    font-size: 1.25rem;
+    font-size: 2 rem;
     line-height: 1.4em;
     background-image: linear-gradient(to right, #fc466b 0%, #3f5efb 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+    font-weight: 500;
 }
 
 
