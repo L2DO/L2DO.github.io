@@ -315,7 +315,7 @@
 <script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
     (function() {
-        let pwd = '';
+        let pwd = 'a5a8c1c2fadb0df908d3271d22e616d3469866cf8f7fc19ac03537543ef69d77';
         if (pwd && pwd.length > 0) {
             if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
                 alert('密码错误，将返回主页！');
@@ -447,12 +447,29 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E5%88%86%E5%B1%82%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/">
+                                <span class="chip bg-color">分层强化学习</span>
+                            </a>
+                        
+                            <a href="/tags/%E4%B8%93%E4%B8%9A/">
+                                <span class="chip bg-color">专业</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/RL/" class="post-category">
+                                RL
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -717,7 +734,15 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/%E5%88%86%E5%B1%82%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/">
+                                    <span class="chip bg-color">分层强化学习</span>
+                                </a>
+                            
+                                <a href="/tags/%E4%B8%93%E4%B8%9A/">
+                                    <span class="chip bg-color">专业</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -797,6 +822,14 @@
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/hexo%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/">
+                        <span class="chip bg-color">hexo基本操作</span>
+                    </a>
+                    
                 </div>
                 
             </div>
