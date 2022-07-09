@@ -1,1 +1,88 @@
 /* Here is your custom css styles. */
+#toc-content .toc-link:hover {
+    color: #fc466b !important;
+    font-weight: 700;
+    text-decoration: underline;
+}
+#toc-content .is-active-link {
+    color: #fc466b !important;
+}
+.github-corner svg {
+    color: #3f5efb !important;
+    fill: #fff;
+    height: 64px;
+    width: 64px;
+}
+
+.bg-cover .title {
+    font-size: 4rem;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+    position: relative !important;
+    background-image: linear-gradient(to right, #fc466b 0%, #3f5efb 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.bg-cover .description {
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.4em;
+    background-image: linear-gradient(to right, #fc466b 0%, #3f5efb 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+.cover-btns a {
+    margin: 10px 15px;
+    padding: 0 35px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 1rem;
+    background-image: linear-gradient(to right, #fc466b 0%, #3f5efb 100%);
+	opacity: 0.3;
+    background-color: transparent;
+    border-radius: 30px;
+    box-shadow: none;
+}
+.cover-btns a:hover {
+    margin: 10px 15px;
+    padding: 0 35px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 1rem;
+    background-image: linear-gradient(to right, #fc466b 0%, #3f5efb 100%);
+	opacity: 1;
+    background-color: transparent;
+    border-radius: 30px;
+    box-shadow: none;
+}
+body {
+    background-image: linear-gradient(to right, #fc466b 0%, #3f5efb 100%);
+    margin: 0;
+    color: #34495e;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+nav ul a {
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    font-size: 1rem;
+    color: #fff;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+}
+.card {
+    position: relative;
+    margin: .5rem 0 1rem 0;
+    background-color: #fff;
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    border-radius: 2px;
+    opacity: 0.9;
+}
