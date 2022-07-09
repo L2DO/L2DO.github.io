@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Hairsky</title>
   
-  <subtitle>Hairsky技术博客</subtitle>
+  <subtitle>Hairsky博客</subtitle>
   <link href="https://www.wangdinghan.xyz/atom.xml" rel="self"/>
   
   <link href="https://www.wangdinghan.xyz/"/>
