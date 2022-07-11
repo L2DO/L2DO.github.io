@@ -4,10 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hexo基本操作, 技术">
-    <meta name="description" content="写文章、发布文章首先在博客根目录下右键打开git bash，安装一个扩展npm i hexo-deployer-git。
-然后输入hexo new post &#34;article title&#34;，新建一篇文章。
-然后打开D:\study\prog">
+    <meta name="keywords" content="折腾记录（一）, 技术">
+    <meta name="description" content="折腾记录（一）问题由来最近在弄hexo博客，用自己服务器上的lsky图床图片链接时发现在edge浏览器上无法使用，最终发现是edge不支持http图片链接，需要ssl加密，以https链接安全访问。
+添加ssl证书非常简单，之前搞wordp">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -21,7 +20,7 @@
 
     
 
-    <title>Hexo基本操作 | Hairsky</title>
+    <title>折腾记录（一） | Hairsky</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -327,12 +326,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/36.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hexo基本操作</h1>
+                    <h1 class="description center-align post-title">折腾记录（一）</h1>
                 </div>
             </div>
         </div>
@@ -448,8 +447,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/hexo%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/">
-                                <span class="chip bg-color">hexo基本操作</span>
+                            <a href="/tags/nginx/">
+                                <span class="chip bg-color">nginx</span>
+                            </a>
+                        
+                            <a href="/tags/picgo/">
+                                <span class="chip bg-color">picgo</span>
+                            </a>
+                        
+                            <a href="/tags/ssl/">
+                                <span class="chip bg-color">ssl</span>
                             </a>
                         
                     </div>
@@ -460,8 +467,12 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/hexo/" class="post-category">
-                                hexo
+                            <a href="/categories/%E6%8A%98%E8%85%BE/" class="post-category">
+                                折腾
+                            </a>
+                        
+                            <a href="/categories/%E6%8A%98%E8%85%BE/%E6%9C%8D%E5%8A%A1%E5%99%A8/" class="post-category">
+                                服务器
                             </a>
                         
                     </div>
@@ -473,7 +484,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-07-09
+                    2022-07-11
                 </div>
                 
 
@@ -482,14 +493,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    288
+                    1k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    4 分
                 </div>
                 
 
@@ -507,13 +518,144 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="写文章、发布文章"><a href="#写文章、发布文章" class="headerlink" title="写文章、发布文章"></a>写文章、发布文章</h2><p>首先在博客根目录下右键打开git bash，安装一个扩展<code>npm i hexo-deployer-git</code>。</p>
-<p>然后输入<code>hexo new post "article title"</code>，新建一篇文章。</p>
-<p>然后打开<code>D:\study\program\blog\source\_posts</code>的目录，可以发现下面多了一个文件夹和一个<code>.md</code>文件，一个用来存放你的图片等数据，另一个就是你的文章文件啦。</p>
-<p>编写完markdown文件后，根目录下输入<code>hexo g</code>生成静态网页，然后输入<code>hexo s</code>可以本地预览效果，最后输入<code>hexo d</code>上传到github上。这时打开你的github.io主页就能看到发布的文章啦。</p>
-<h2 id="备份博客源文件"><a href="#备份博客源文件" class="headerlink" title="备份博客源文件"></a>备份博客源文件</h2><p>有时候我们想换一台电脑继续写博客，这时候就可以将博客目录下的所有源文件都上传到github上面。</p>
-<p>首先在github博客仓库下新建一个分支<code>hexo</code>，然后<code>git clone</code>到本地，把<code>.git</code>文件夹拿出来，放在博客根目录下。</p>
-<p>然后<code>git branch -b hexo</code>切换到<code>hexo</code>分支，然后<code>git add .</code>，然后<code>git commit -m "xxx"</code>，最后<code>git push origin hexo</code>提交就行了。</p>
+                <h1 id="折腾记录（一）"><a href="#折腾记录（一）" class="headerlink" title="折腾记录（一）"></a>折腾记录（一）</h1><h2 id="问题由来"><a href="#问题由来" class="headerlink" title="问题由来"></a>问题由来</h2><p>最近在弄hexo博客，用自己服务器上的lsky图床图片链接时发现在edge浏览器上无法使用，最终发现是edge不支持http图片链接，需要ssl加密，以https链接安全访问。</p>
+<p>添加ssl证书非常简单，之前搞wordpress等服务已经得心应手，但现在的网络路由环境不同，且本人对nginx反向代理不是很熟，故本问题花费两天时间解决，大部分时间都浪费在调试和解决一些莫名奇妙的bug上，特此记录。</p>
+<h2 id="网络环境"><a href="#网络环境" class="headerlink" title="网络环境"></a>网络环境</h2><p>本人网络环境为某大学深澜校园网，服务器需要公网访问不得不采用natv6方式。服务器为n5105软路由，底层为pve虚拟机，虚拟了openwrt，debian on lxc，nas。openwrt拨号上网，作为dhcp服务器。本人图床在lxc容器的docker容器中（套娃），想要给这东西ssl加密需要nginx反向代理，但路由是个问题。想要公网访问，必须通过openwrt nat到的公网v6地址，而lxc容器没有公网ip，为了连通选择用openwrt中的socat服务，最终能够通过公网ip+端口号形式访问web服务。但这种方法很low，且无法反向代理配置ssl。</p>
+<h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>主要问题在于这种复杂情况下的路由如何反向代理，方法是在openwrt虚拟主机安装nginx服务，该处作为反向代理服务器，能够直接获取公网v6，监听流量。如果在docker中建立nginx服务，则无法通过公网v6访问。</p>
+<h3 id="1-openwrt下安装nginx"><a href="#1-openwrt下安装nginx" class="headerlink" title="1. openwrt下安装nginx"></a>1. openwrt下安装nginx</h3><p>原文链接:<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/9773afd07276">斐讯K2P刷OpenWrt，并使用Nginx做服务，添加ssl - 简书 (jianshu.com)</a></p>
+<ol>
+<li>使用以下命令编辑opkg源</li>
+</ol>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">nano</span> /etc/opkg/distfeeds.conf<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<ol start="2">
+<li>更换为Openwrt官方源</li>
+</ol>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">src/gz openwrt_core https://downloads.openwrt.org/releases/21.02.0/targets/rockchip/armv8/packages
+src/gz openwrt_base https://downloads.openwrt.org/releases/21.02.0/packages/aarch64_generic/base
+src/gz openwrt_luci https://downloads.openwrt.org/releases/21.02.0/packages/aarch64_generic/luci
+src/gz openwrt_packages https://downloads.openwrt.org/releases/21.02.0/packages/aarch64_generic/packages
+src/gz openwrt_routing https://downloads.openwrt.org/releases/21.02.0/packages/aarch64_generic/routing
+src/gz openwrt_telephony https://downloads.openwrt.org/releases/21.02.0/packages/aarch64_generic/telephony<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<ol start="3">
+<li>更新软件列表</li>
+</ol>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">opkg <span class="token function">install</span> libpcre nginx spawn-fcgi<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<ol start="4">
+<li>在openwrt中 –软件包页面安装：</li>
+</ol>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">nginx
+nginx-ssl
+nginx-mod-luci
+<span class="token comment"># 安装完上面3个，底下2个会自动安装，要是没有就手动装</span>
+nginx-util
+nginx-ssl-util<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<ol start="5">
+<li>禁用uhttpd，防止端口冲突</li>
+</ol>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">/etc/init.d/uhttpd stop
+/etc/init.d/uhttpd disable
+<span class="token comment"># 移除uhttpd</span>
+opkg remove uhttpd<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<ol start="6">
+<li>启动nginx</li>
+</ol>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">/etc/init.d/nginx <span class="token builtin class-name">enable</span>
+/etc/init.d/nginx start<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<ol start="7">
+<li>创建nginx.conf文件，编辑内容</li>
+</ol>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">nano</span> nginx.conf<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># Please consider creating files in /etc/nginx/conf.d/ instead of editing this.</span>
+<span class="token comment"># For details see https://openwrt.org/docs/guide-user/services/webserver/nginx</span>
+user root<span class="token punctuation">;</span>
+events <span class="token punctuation">{</span><span class="token punctuation">}</span>
+http <span class="token punctuation">{</span>
+  access_log off<span class="token punctuation">;</span>
+  log_format openwrt
+     <span class="token string">'$request_method $scheme://$host$request_uri =&gt; $status'</span>
+     <span class="token string">' (${body_bytes_sent}B in ${request_time}s) &lt;- $http_referer'</span><span class="token punctuation">;</span>
+ 
+  include mime.types<span class="token punctuation">;</span>
+  default_type application/octet-stream<span class="token punctuation">;</span>
+  sendfile on<span class="token punctuation">;</span>
+  client_max_body_size 128M<span class="token punctuation">;</span>
+  large_client_header_buffers <span class="token number">2</span> 1k<span class="token punctuation">;</span>
+
+  <span class="token function">gzip</span> on<span class="token punctuation">;</span>
+  gzip_vary on<span class="token punctuation">;</span>
+  gzip_proxied any<span class="token punctuation">;</span>
+  root /www<span class="token punctuation">;</span>
+
+  server <span class="token punctuation">{</span>
+    listen <span class="token number">127.0</span>.0.1:80 default_server<span class="token punctuation">;</span>
+    listen <span class="token number">192.168</span>.2.1:80 default_server<span class="token punctuation">;</span>
+    server_name  k2p<span class="token punctuation">;</span>
+    charset UTF-8<span class="token punctuation">;</span>
+    autoindex on<span class="token punctuation">;</span>
+    location /cgi-bin/luci <span class="token punctuation">{</span>
+        index  index.html<span class="token punctuation">;</span>
+        include uwsgi_params<span class="token punctuation">;</span>
+        uwsgi_param SERVER_ADDR <span class="token variable">$server_addr</span><span class="token punctuation">;</span>
+        uwsgi_modifier1 <span class="token number">9</span><span class="token punctuation">;</span>
+        uwsgi_pass unix:////var/run/luci-webui.socket<span class="token punctuation">;</span>
+     <span class="token punctuation">}</span>
+     location ~ /cgi-bin/cgi-<span class="token punctuation">(</span>backup<span class="token operator">|</span>download<span class="token operator">|</span>upload<span class="token operator">|</span><span class="token builtin class-name">exec</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            include uwsgi_params<span class="token punctuation">;</span>
+            uwsgi_param SERVER_ADDR <span class="token variable">$server_addr</span><span class="token punctuation">;</span>
+            uwsgi_modifier1 <span class="token number">9</span><span class="token punctuation">;</span>
+            uwsgi_pass unix:////var/run/luci-cgi_io.socket<span class="token punctuation">;</span>
+     <span class="token punctuation">}</span>
+     location /luci-static <span class="token punctuation">{</span>
+     <span class="token punctuation">}</span>
+      location /ubus <span class="token punctuation">{</span>
+            ubus_interpreter<span class="token punctuation">;</span>
+            ubus_socket_path /var/run/ubus.sock<span class="token punctuation">;</span>
+            ubus_parallel_req <span class="token number">2</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+   <span class="token punctuation">}</span>
+   include config/*.conf<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+<h3 id="2-nginx-反向代理并配置ssl证书"><a href="#2-nginx-反向代理并配置ssl证书" class="headerlink" title="2. nginx 反向代理并配置ssl证书"></a>2. nginx 反向代理并配置ssl证书</h3><p>添加以下部分即可，监听443端口</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">server <span class="token punctuation">{</span>
+        listen <span class="token number">443</span> ssl<span class="token punctuation">;</span>
+        listen <span class="token punctuation">[</span>::<span class="token punctuation">]</span>:443 ssl<span class="token punctuation">;</span>
+        server_name <span class="token number">6</span>.wangdinghan.xyz<span class="token punctuation">;</span>
+        ssl_certificate /root/.acme.sh/6.wangdinghan.xyz/6.wangdinghan.xyz.cer<span class="token punctuation">;</span>
+        ssl_certificate_key /root/.acme.sh/6.wangdinghan.xyz/6.wangdinghan.xyz.key<span class="token punctuation">;</span>
+        ssl_session_cache shared:SSL:1m<span class="token punctuation">;</span>
+        ssl_session_timeout 30m<span class="token punctuation">;</span>
+        ssl_protocols TLSv1 TLSv1.1 TLSv1.2<span class="token punctuation">;</span>
+        ssl_ciphers HIGH:<span class="token operator">!</span>aNULL:<span class="token operator">!</span>MD5:<span class="token operator">!</span>EXPORT56:<span class="token operator">!</span>EXP<span class="token punctuation">;</span>
+        ssl_prefer_server_ciphers on<span class="token punctuation">;</span>
+        proxy_connect_timeout <span class="token number">500</span><span class="token punctuation">;</span>
+        proxy_send_timeout <span class="token number">500</span><span class="token punctuation">;</span>
+        proxy_read_timeout <span class="token number">500</span><span class="token punctuation">;</span>
+        client_max_body_size 10m<span class="token punctuation">;</span>
+        index index.php<span class="token punctuation">;</span>
+        location / <span class="token punctuation">{</span>
+                proxy_pass http://192.168.123.6:80<span class="token punctuation">;</span> //代理主机
+                proxy_set_header Host <span class="token variable">$host</span>:443<span class="token punctuation">;</span>
+                proxy_set_header X-Real-IP <span class="token variable">$remote_addr</span><span class="token punctuation">;</span>
+                proxy_set_header X-Forwarded-For <span class="token variable">$proxy_add_x_forwarded_for</span><span class="token punctuation">;</span>
+                proxy_set_header X-Forwarded-Proto <span class="token variable">$scheme</span><span class="token punctuation">;</span>
+                proxy_set_header REMOTE-HOST <span class="token variable">$remote_addr</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+
+
+   <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="3-Picgo配置"><a href="#3-Picgo配置" class="headerlink" title="3. Picgo配置"></a>3. Picgo配置</h3><p>为了配合typro自动上传图片到lsky图床服务，中间桥梁选用Picgo，但正常添加api接口时遇到问题，<a target="_blank" rel="noopener" href="https://6.wangdinghan.xyz无法上传,日志看不到原因...而用apipost6去测试则没问题/">https://6.wangdinghan.xyz无法上传，日志看不到原因...而用ApiPost6去测试则没问题</a>…</p>
+<p>最后，还是用socat的链接作为上传api没有问题，返还的还是https链接，只能先这样了。</p>
 
                 
             </div>
@@ -540,7 +682,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://www.wangdinghan.xyz/hexo-ji-ben-cao-zuo/">https://www.wangdinghan.xyz/hexo-ji-ben-cao-zuo/</a>
+                    <a href="https://www.wangdinghan.xyz/zhe-teng-ji-lu-yi/">https://www.wangdinghan.xyz/zhe-teng-ji-lu-yi/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -578,8 +720,16 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/hexo%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/">
-                                    <span class="chip bg-color">hexo基本操作</span>
+                                <a href="/tags/nginx/">
+                                    <span class="chip bg-color">nginx</span>
+                                </a>
+                            
+                                <a href="/tags/picgo/">
+                                    <span class="chip bg-color">picgo</span>
+                                </a>
+                            
+                                <a href="/tags/ssl/">
+                                    <span class="chip bg-color">ssl</span>
                                 </a>
                             
                         </div>
@@ -627,9 +777,72 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/zhe-teng-ji-lu-yi/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="折腾记录（一）">
+                        
+                        <span class="card-title">折腾记录（一）</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-11
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%8A%98%E8%85%BE/" class="post-category">
+                                    折腾
+                                </a>
+                            
+                            <a href="/categories/%E6%8A%98%E8%85%BE/%E6%9C%8D%E5%8A%A1%E5%99%A8/" class="post-category">
+                                    服务器
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/nginx/">
+                        <span class="chip bg-color">nginx</span>
+                    </a>
+                    
+                    <a href="/tags/picgo/">
+                        <span class="chip bg-color">picgo</span>
+                    </a>
+                    
+                    <a href="/tags/ssl/">
+                        <span class="chip bg-color">ssl</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/ji-suan-ji-wang-luo-yi/">
                     <div class="card-image">
@@ -647,9 +860,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-07-10
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-10
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -667,59 +880,6 @@
                     
                     <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">
                         <span class="chip bg-color">计算机网络</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/reinforcement-learning/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="Reinforcement Learning">
-                        
-                        <span class="card-title">Reinforcement Learning</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-08
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/RL/" class="post-category">
-                                    RL
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E5%88%86%E5%B1%82%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/">
-                        <span class="chip bg-color">分层强化学习</span>
-                    </a>
-                    
-                    <a href="/tags/%E4%B8%93%E4%B8%9A/">
-                        <span class="chip bg-color">专业</span>
                     </a>
                     
                 </div>
