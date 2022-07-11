@@ -132,6 +132,17 @@
     
   </li>
   
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/galleries" class="waves-effect waves-light">
+      
+      <i class="fas fa-image" style="zoom: 0.6;"></i>
+      
+      <span>相册</span>
+    </a>
+    
+  </li>
+  
   <li>
     <a href="#searchModal" class="modal-trigger waves-effect waves-light">
       <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
@@ -229,6 +240,17 @@
 			    <i class="fa-fw fas fa-address-book"></i>
 			
 			友情链接
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/galleries" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-image"></i>
+			
+			相册
 		</a>
           
         </li>
@@ -606,7 +628,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"hexo","value":1},{"name":"RL","value":1},{"name":"折腾","value":1},{"name":"计算机网络","value":1},{"name":"服务器","value":1}],
+                data: [{"name":"hexo","value":1},{"name":"RL","value":1},{"name":"计算机网络","value":1},{"name":"折腾","value":1},{"name":"服务器","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -630,7 +652,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["hexo基本操作","分层强化学习","专业","nginx","picgo","ssl","计算机网络"]
+                data: ["hexo基本操作","分层强化学习","专业","计算机网络","nginx","picgo","ssl"]
             }
         ],
         yAxis: [
@@ -831,6 +853,12 @@
             
             
             
+            <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">
+                <span class="chip center-align waves-effect waves-light chip-default">计算机网络</span>
+            </a>
+            
+            
+            
             <a href="/tags/nginx/">
                 <span class="chip center-align waves-effect waves-light chip-default">nginx</span>
             </a>
@@ -848,12 +876,6 @@
             </a>
             
             
-            
-            <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">
-                <span class="chip center-align waves-effect waves-light chip-default">计算机网络</span>
-            </a>
-            
-            
         </div>
     </div>
     
@@ -861,48 +883,6 @@
 </div>
 
                 
-
-                
-                
-<div id="myGallery" class="my-gallery">
-    <div class="title center-align" data-aos="zoom-in-up">
-        <i class="far fa-image"></i>&nbsp;&nbsp;相册
-    </div>
-    <div class="row">
-        
-        
-        <div class="photo col s12 m6 l4" data-aos="fade-up">
-            <div class="img-item" data-src="/medias/featureimages/0.jpg">
-                <img src="/medias/featureimages/0.jpg" class="responsive-img">
-            </div>
-        </div>
-        
-        <div class="photo col s12 m6 l4" data-aos="fade-up">
-            <div class="img-item" data-src="/medias/featureimages/1.jpg">
-                <img src="/medias/featureimages/1.jpg" class="responsive-img">
-            </div>
-        </div>
-        
-        <div class="photo col s12 m6 l4" data-aos="fade-up">
-            <div class="img-item" data-src="/medias/featureimages/2.jpg">
-                <img src="/medias/featureimages/2.jpg" class="responsive-img">
-            </div>
-        </div>
-        
-        
-    </div>
-</div>
-
-<script>
-    $(function () {
-        let animateClass = 'animated pulse';
-        $('#myGallery .photo').hover(function () {
-            $(this).addClass(animateClass);
-        }, function () {
-            $(this).removeClass(animateClass);
-        });
-    });
-</script>
 
                 
                 
