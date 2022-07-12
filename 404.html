@@ -342,13 +342,7 @@
             <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
                 <div class="brand">
                     <div class="title center-align">
-                        404 Sorry 您找的页面不存在！
-                    </div>
-                    <div class="title center-align">
-                        试试右上角的<span style="color:blue;font-weight:bold">搜索</span>功能？
-                    </div>
-                    <div class="title center-align">
-                        <a href="/" target="_blank">返回首页</a>
+                        404
                     </div>
                     <div class="description center-align">
                         Oops～，我崩溃了！找不到你想要的页面 :(
@@ -359,14 +353,10 @@
     </div>
 </div>
 
-
-    <script>
-        // 每天切换 banner 图.  Switch banner image every day.
-        var bannerUrl = "https://cdn.jsdelivr.net/gh/L2DO/L2DO.github.io/medias/banner/" + new Date().getDay() + '.jpg';
-        $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-    </script>
-
-
+<script>
+    // 每天切换 banner 图.  Switch banner image every day.
+    $('.bg-cover').css('background-image', 'url(https://6.wangdinghan.xyz:8443/banner/banner/' + new Date().getDay() + '.jpg)');
+</script>
 
     <footer class="page-footer bg-color">
     
