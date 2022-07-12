@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>折腾记录（二）</title>
+      <link href="/zhe-teng-ji-lu-er/"/>
+      <url>/zhe-teng-ji-lu-er/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="折腾记录（二）"><a href="#折腾记录（二）" class="headerlink" title="折腾记录（二）"></a>折腾记录（二）</h1><h2 id="问题由来"><a href="#问题由来" class="headerlink" title="问题由来"></a>问题由来</h2><p>想使用cloudflare的cdn服务，确保图床服务器的安全，但套用cdn时出现问题，输入域名无法跳转图床，而是直接转到Openwrt管理界面。</p><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>之前在Openwrt上配置的nginx 服务器配置文件有问题，需要修改，将图床监听端口改成8443即可解决。需要注意，cloudflare仅开放部分端口给用户使用。</p><h2 id="遗留问题"><a href="#遗留问题" class="headerlink" title="遗留问题"></a>遗留问题</h2><p>虽然域名指向Op主机地址，但我并没有在nginx为Openwrt sever配置ssl。但使用cloudflare后却可以直接安全链接访问。这就导致原本我想Openwrt server监听80端口，通过http访问，现在强制让我https。原本我想图床服务监听443端口，现在却无法访问，只能到Openwrt。</p><h2 id="彩蛋"><a href="#彩蛋" class="headerlink" title="彩蛋"></a>彩蛋</h2><p>对于折腾记录（一）遗留的问题，在折腾本文内容时突然发现更换端口后在Picgo可以使用了。尚不确定是端口问题还是反向代理的问题，毕竟两处都改了。nginx修改了默认主机default_server。特此记录</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 折腾 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/hello-world/"/>
       <url>/hello-world/</url>
