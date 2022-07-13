@@ -6,7 +6,7 @@
   <link href="https://www.wangdinghan.xyz/atom.xml" rel="self"/>
   
   <link href="https://www.wangdinghan.xyz/"/>
-  <updated>2022-07-13T12:11:49.503Z</updated>
+  <updated>2022-07-12T03:27:56.920Z</updated>
   <id>https://www.wangdinghan.xyz/</id>
   
   <author>
@@ -15,31 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>折腾记录（三）</title>
-    <link href="https://www.wangdinghan.xyz/zhe-teng-ji-lu-san/"/>
-    <id>https://www.wangdinghan.xyz/zhe-teng-ji-lu-san/</id>
-    <published>2022-07-12T11:00:24.000Z</published>
-    <updated>2022-07-13T12:11:49.503Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="服务器" scheme="https://www.wangdinghan.xyz/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    
-    
-    <category term="openwrt" scheme="https://www.wangdinghan.xyz/tags/openwrt/"/>
-    
-  </entry>
   
   <entry>
     <title>折腾记录（二）</title>
