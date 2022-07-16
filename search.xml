@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>计算机网络（二）</title>
+      <link href="/ji-suan-ji-wang-luo-er/"/>
+      <url>/ji-suan-ji-wang-luo-er/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="1-5-计算机网络的性能指标"><a href="#1-5-计算机网络的性能指标" class="headerlink" title="1.5 计算机网络的性能指标"></a>1.5 计算机网络的性能指标</h2><ul><li><p>常用的计算机网络的性能指标有以下8个：</p><ul><li><p>速率：</p><ul><li><p>比特：计算机中数据量的单位，也是信息论中信息量的单位。一个比特就是二进制数字中的1或0。</p><p>常用的数据量单位：</p><p>8 bit = 1 Byte</p><p>KB = $2^{10}$ B</p><p>MB = K$\cdot$KB = $2^{10}\cdot2^{10}$ B = $2^{20}$ B</p></li><li><p>速率：连接在计算机网络上的主机在数字信道上传送比特的速率，也称为<em>比特率</em>或<em>数据率</em>。</p><p>常用数据率单位 bit/s (b/s, bps)</p><p>kb/s = $10^3$ b/s (bps)</p><p>Mb/s = k$\cdot$kb/s = $10^6$b/s (bps)</p></li></ul></li><li><p>带宽:</p><ul><li>带宽在模拟信号系统中的意义<ul><li><img src="https://6.wangdinghan.xyz:8443/uploads/2022/07/16/62d2a947053bf.png"></li><li><img src="https://6.wangdinghan.xyz:8443/uploads/2022/07/16/62d2a9bdd1711.png"></li></ul></li></ul></li><li><p>吞吐量：</p><ul><li>吞吐量表示在<em>单位时间内通过某个网络（或信道、接口）的数据量。</em></li><li>吞吐量被经常用于对现实世界中的网络的一种测量，以便知道实际上到底有多少数据量能够通过网络。</li><li>吞吐量<em>受网络的带宽或额定速率的限制。</em></li></ul></li><li><p>时延</p><ul><li><img src="https://6.wangdinghan.xyz:8443/uploads/2022/07/16/62d2ac3c33ad7.png"></li><li><img src="https://6.wangdinghan.xyz:8443/uploads/2022/07/16/62d2acf659663.png"></li></ul></li><li><p>时延带宽积</p></li><li><p>往返时间</p></li><li><p>利用率</p></li><li><p>丢包率</p></li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机网络 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机网络 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>折腾记录（二）</title>
       <link href="/zhe-teng-ji-lu-er/"/>
       <url>/zhe-teng-ji-lu-er/</url>
